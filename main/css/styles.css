@@ -5604,18 +5604,18 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  color: white;
-  text-align: center;
-  font-family: 'Kanit', sans-serif;
-  font-size: 1.5rem;
   padding: 50px;
   background-color: #006266;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .books-tittle {
-  padding: 30px;
   position: relative;
-  top: 74%;
+  padding: 30px;
+  top: 75%;
   width: 100%;
   color: #006266;
   font-family: 'Kanit', sans-serif;
