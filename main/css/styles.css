@@ -5560,7 +5560,7 @@ form .row:first-child .floating-label-form-group {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #006266;
+  background-color: #006266;
   height: 50px;
   width: 535px;
   border-radius: 40px;
@@ -5569,6 +5569,7 @@ form .row:first-child .floating-label-form-group {
 
 .search-button {
   font-size: 1.5rem;
+  color: white;
   position: absolute;
   top: 20%;
   left: 75%;
@@ -5585,18 +5586,20 @@ form .row:first-child .floating-label-form-group {
 
 .search-text{
   color: white;
-  border: none;
   background: none;
+  border: none;
   outline: none;
   float: left;
   padding: none;
-  width: 490px;
+  width: 375px;
   font-size: 20px;
   transition: 0.5s;
   line-height: 0px;
 }
 
 .search-box:hover > .search-button {
+  color: #006266;
+  transition: 1.0s;
   background: #ffda79;
 }
 
